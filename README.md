@@ -1,4 +1,4 @@
-# DEPLOYX Certificate Portal
+# PIXELX Certificate Portal
 
 ## How to Run
 This application is designed to run entirely locally in your browser.

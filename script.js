@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                         const url = URL.createObjectURL(blob);
                         downloadLink.href = url;
-                        downloadLink.download = `DEPLOYX_Certificate_${name.replace(/\s+/g, '_')}.png`;
+                        downloadLink.download = `PIXELX_Certificate_${name.replace(/\s+/g, '_')}.png`;
 
                         // Clean up object URL after click
                         downloadLink.onclick = () => {
