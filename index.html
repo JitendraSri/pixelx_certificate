@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPLOYX</title>
+
+    <!-- Google Material Design CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- QR Scanner Library -->
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+</head>
+
+<body>
+
+    <main style="position: relative;">
+        <div class="floating-background">
+            <!-- 15 floating items for dense background effect -->
+            <img src="images/2.png" alt="" class="floating-item">
+            <img src="images/EVENTLOGO.PNG" alt="" class="floating-item">
+            <img src="images/8.png" alt="" class="floating-item">
+        </div>
+        <div class="container">
+            <div class="sponsors-bar">
+                <div class="marquee-track">
+                    <img src="images/2.png" alt="Sponsor Logo" class="sponsor-logo">
+                    <img src="images/EVENTLOGO.PNG" alt="Sponsor Logo" class="sponsor-logo">
+                    <img src="images/8.png" alt="Sponsor Logo" class="sponsor-logo">
+
+                </div>
+            </div>
+            <div class="card">
+                <h1 class="card-title text-center">DeployX</h1>
+                <h3 class="text-center">by GDGoc SVEC</h3>
+                <div class="scanner-section text-center">
+                    <h3>Scan QR which is on your ID card</h3>
+                    <button id="btnScanQr" class="btn-secondary" type="button"> Scan QR Code</button>
+                    <div id="reader" style="width: 100%; display: none; margin-top: 20px;"></div>
+                </div>
+                <h3 align="center">OR</h3>
+                <br>
+                <p class="text-center lead">Enter your roll number to download your certificate.</p>
+
+                <form id="certificateForm" class="form-container">
+                    <div class="input-group">
+                        <div class="input-wrapper">
+                            <input type="text" id="rollNo" placeholder="Enter Roll Number (e.g., 24A81A4367)" required
+                                autocomplete="off">
+                        </div>
+                        <button class="btn-primary" type="submit">Download Certificate</button>
+                    </div>
+                </form>
+
+
+
+                <div id="certificateResult" class="text-center" style="display: none;">
+                    <canvas id="certificateCanvas"></canvas>
+                    <a id="downloadLink" class="btn-success" style="display: none;">Click to Download</a>
+                </div>
+
+                <div id="notRegisteredMessage" class="text-center alert-danger" style="display: none;">
+                    Roll number not found. Please contact the GDGoC SVEC TEAM for assistance.
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Designed &amp; Developed by <b><a href="https://www.linkedin.com/in/jitendrasritalabattula/"
+                    target="_blank">Jitendra Sri</a></b></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
