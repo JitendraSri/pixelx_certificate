@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const textX = canvas.width / 2;
                 // DROPPING THE NAME BY 55 PIXELS (Relative to previous logic)
-                // Original logic: canvas.height * 0.45 + 135
+                // Original logic: canvas.height * 0.45 + 330
                 const textY = canvas.height * 0.45 + 330;
 
                 ctx.fillText(name, textX, textY);
