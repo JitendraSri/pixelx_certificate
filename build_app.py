@@ -120,7 +120,7 @@ js_content = f"""document.addEventListener('DOMContentLoaded', () => {{
                 ctx.drawImage(certificateTemplate, 0, 0);
 
                 // Set up the font with Google Sans
-                ctx.font = 'bold 100px "Google Sans", Roboto, Arial, sans-serif';
+                ctx.font = 'bold 130px "Google Sans", Roboto, Arial, sans-serif';
                 ctx.fillStyle = '#000';  // Assuming black color
                 ctx.textAlign = 'center';
                 ctx.textBaseline = 'middle';
