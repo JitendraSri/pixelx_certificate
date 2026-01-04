@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "24A81A43A9": "PAMARTHI LAKSHITHA",
         "24A81A4398": "Bhuvana Sri Vijaya Malleswarapu",
         "24A81A0474": "CHEMBOLU LAKSHMI SASI KUMARI",
-        "25A85A6101": "SAI DIVYA",
+        "25A85A6101": "SAI DIVYA DALADULI",
         "25A85A4403": "NAGESWARI MANTRABUDDI",
         "24A81A04B9": "S. DEEPIKA",
         "24A81A04A7": "Narni Lakshmi Naga Durga Lahari",
@@ -149,7 +149,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "24A81A6141": "MUTHYALA DHAMODAR",
         "24A81A6111": "CH.ARAVIND",
         "24A81A6136": "K Chaitanya",
-        "24A81A6116": "D Surya Praveen"
+        "24A81A6116": "D Surya Praveen",
+        "24A81A61C1": "RAMISETTI ANANTHA NAGA SAI RAM"
     };
 
     console.log(`✓ Loaded ${Object.keys(studentsData).length} students from embedded data`);
